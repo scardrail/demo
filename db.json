@@ -1,14 +1,31 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "devices": [
+    { 
+      "Device_id": "D3-01-04-59-81-4C", "Device_name": "presence sensor 1", "Device_type": "presenceSensor", "datetime": "2018-05-06 14:48:35",
+      "datas":[{ "value":"TRUE", "datetime":"2018-05-18 05:04:17" }, {"value":"FALSE","datetime":"2018-05-18 05:06:27" }]
+    },
+    { "Device_id": "88-EA-22-64-A5-51", "Device_name": "Athmospheric sensor 1","Device_type": "atmosphericPressureSensor","datetime": "2018-05-06 14:48:35" ,
+    "datas":[{ "value":"18", "datetime":"2018-05-18 05:04:17" }, {"value":"25","datetime":"2018-05-18 05:06:27" }]
+    },
+    { "Device_id": "F0-0D-84-08-72-3B", "Device_name": "lC02 sensor 1","Device_type": "co2Sensor","datetime": "2018-05-06 14:48:35" ,
+    "datas":[{ "value":"22", "datetime":"2018-05-18 05:04:17" }, {"value":"23","datetime":"2018-05-18 05:06:27" }]
+    },
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "getAll": [
+    { 
+      "Device_id": "D3-01-04-59-81-4C", "Device_name": "presence sensor 1", "Device_type": "presenceSensor", "datetime": "2018-05-06 14:48:35"
+    },
+    { "Device_id": "88-EA-22-64-A5-51", "Device_name": "Athmospheric sensor 1","Device_type": "atmosphericPressureSensor","datetime": "2018-05-06 14:48:35" 
+    },
+    { "Device_id": "F0-0D-84-08-72-3B", "Device_name": "lC02 sensor 1","Device_type": "co2Sensor","datetime": "2018-05-06 14:48:35" 
+    },
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  
+  "getValue": [
+    { 
+      "datetime": "2018-05-06 14:48:35" ,
+      "datas":[{ "value":"22", "datetime":"2018-05-18 05:04:17" }, {"value":"23","datetime":"2018-05-18 05:06:27" }]
+    },
+  ],
+  
 }
